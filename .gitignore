@@ -1,0 +1,20 @@
+.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ECLIPSE #
+Servers
+.metadata
+RemoteSystemsTempFiles
+**/target
+.*
+logs
+lib/**
+!lib/readme.txt
+!.gitignore
+
+# Data
+/bin
