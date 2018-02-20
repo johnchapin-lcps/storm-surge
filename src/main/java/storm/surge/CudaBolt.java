@@ -23,6 +23,7 @@ import backtype.storm.task.TopologyContext;
 import backtype.storm.tuple.Tuple;
 
 public abstract class CudaBolt extends BufferedBolt {
+	//comment change
 
 	private String cuFilePath;
 	private String ptxFilePath;
